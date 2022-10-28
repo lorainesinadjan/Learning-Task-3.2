@@ -1,0 +1,111 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/map"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700">
+
+        <TableRow
+            android:id="@+id/row_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15sp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/textViewHeader"
+                android:layout_width="397dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:text="BEACH PLEASE"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+        </TableRow>
+
+    </LinearLayout>
+
+    <TableRow
+        android:id="@+id/row1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="15dp"
+            android:src="@drawable/bantayan" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="15dp"
+            android:src="@drawable/mactan" />
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/textImageView1"
+        android:layout_width="141dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="1dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Bantayan Island                           Mactan Island"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TableRow
+        android:id="@+id/row3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="15dp"
+            android:src="@drawable/oslob" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="15dp"
+            android:src="@drawable/tabuelan" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/textImageView2"
+        android:layout_width="141dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="1dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Oslob Island                              Tabuelan Island"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+
+</TableLayout>
